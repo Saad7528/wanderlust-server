@@ -25,3 +25,11 @@ Before you begin, ensure you have met the following requirements:
 * [MongoDB / MySQL / PostgreSQL] installed and running.
 * [Any other tool like Git]
 
+## 💻 Installation & Setup
+
+Follow these steps to get the server running locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [your-repository-url]
+   cd [your-project-folder]
