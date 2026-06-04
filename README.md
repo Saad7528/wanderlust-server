@@ -18,3 +18,10 @@ This is the backend server for [Project Name]. It provides the API endpoints, ha
 * **Authentication:** [e.g., JSON Web Tokens (JWT)]
 * **Other Tools:** [e.g., Mongoose, Sequelize, Docker]
 
+## ⚙️ Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+* [Node.js / Python / PHP] installed on your local machine.
+* [MongoDB / MySQL / PostgreSQL] installed and running.
+* [Any other tool like Git]
+
