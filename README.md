@@ -10,3 +10,11 @@ This is the backend server for [Project Name]. It provides the API endpoints, ha
 * **Error Handling:** Centralized error handling and validation.
 * **[Add another feature:]** e.g., File uploading, Payment integration, etc.
 
+## 🛠️ Tech Stack
+
+* **Language:** [e.g., JavaScript/Node.js, Python, PHP]
+* **Framework:** [e.g., Express.js, Django, Laravel]
+* **Database:** [e.g., MongoDB, PostgreSQL, MySQL]
+* **Authentication:** [e.g., JSON Web Tokens (JWT)]
+* **Other Tools:** [e.g., Mongoose, Sequelize, Docker]
+
