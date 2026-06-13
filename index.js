@@ -3,7 +3,7 @@ const cors = require('cors')
 const dotenv = require('dotenv')
 dotenv.config()
 
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = process.env.MONGODB_URI;
 
 const app = express();
@@ -39,6 +39,14 @@ async function run() {
 
             res.json(result)
         })
+
+            app.get('/destination/:id', async (req, res) => {
+                const {id} = req.params;
+
+                const result = await destinationCollection.findOne({_id: new ObjectId(id)});
+
+                res.json(result)
+            })
 
  
 
